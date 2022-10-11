@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <style>
+       .container
+       {
+        border: 5px red;
+       } 
+       .row
+       {
+        border: 3px dotted gold;
+        min-height: 100px;
+        color: white;
+       }
+       .box1
+       {
+        background-color: chartreuse;
+       }
+       .box2
+       {
+        background-color: burlywood;
+       }
+       .box3
+       {
+        background-color: coral;
+       }
+       .box4
+       {
+        background-color: violet;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 order-lg-4 box1">Box-1</div>
+            <div class="col-lg-3 order-lg-1 box2">Box-2</div>
+            <div class="col-lg-3 order-lg-3 box3">Box-3</div>
+            <div class="col-lg-3 order-lg-2 box4">Box-4</div>
+        </div>
+    </div>
+</body>
+</html>

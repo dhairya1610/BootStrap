@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <style>
+        .container
+        {
+            border: 2px solid royalblue;
+        }
+        .row
+        {
+            border: 2px solid yellow;
+            min-height: 260px;
+        }
+        .box1
+        {
+            border: 5px solid orchid;
+            background-color: aqua;
+        }
+        .box2
+        {
+            border: 5px solid goldenrod;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-4 offset-md-4 col-lg-4 offset-lg-8 box1"> Box-1</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-3 offset-md-3 box1">Box-1</div>
+            <div class="col-sm-12 offset-sm-0 col-md-3 offset-md-3 box2">Box-2</div>
+        </div>
+    </div>
+</body>
+</html>
