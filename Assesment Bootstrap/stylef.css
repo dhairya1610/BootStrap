@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #19123b;
+}
+
+.main_div {
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    border-top: 5px solid rgb(176,106,252);
+    background: #212042;
+    color: #57557a;
+    margin-top: 150px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #2a284d;
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.fa:hover {
+    cursor: pointer;
+    background: #aaafff;
+}
